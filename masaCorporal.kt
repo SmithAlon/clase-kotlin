@@ -5,11 +5,14 @@ fun calcularIMC(peso: Double, altura: Double): Double {
 }
 
 fun clasificarIMC(imc: Double): String {
-    return when {
-        imc < 18.5 -> "Bajo peso"
-        imc in 18.5..24.9 -> "Normal"
-        imc in 25.0..29.9 -> "Sobrepeso"
-        else -> "Obesidad"
+    return if (imc < 18.5) {
+        "Bajo peso"
+    } else if (imc <= 24.9) {
+        "Normal"
+    } else if (imc <= 29.9) {
+        "Sobrepeso"
+    } else {
+        "Obesidad"
     }
 }
 
