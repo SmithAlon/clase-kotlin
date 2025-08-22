@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cuadriculaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="7"
+    app:rowCount="6"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <!-- Fila 1 -->
+    <TextView
+        android:id="@+id/cuadrado_1_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A1"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_1_2"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_1"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cuadrado_1_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A2"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_1_1"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_1_3"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_2" />
+
+    <TextView
+        android:id="@+id/cuadrado_1_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A3"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_1_2"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_1_4"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_3" />
+
+    <TextView
+        android:id="@+id/cuadrado_1_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A4"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_1_3"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_1_5"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_4" />
+
+    <TextView
+        android:id="@+id/cuadrado_1_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A5"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_1_4"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_1_6"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_5" />
+
+    <TextView
+        android:id="@+id/cuadrado_1_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A6"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_1_5"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_1_7"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_6" />
+
+    <TextView
+        android:id="@+id/cuadrado_1_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="A7"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_1_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_2_7" />
+
+    <!-- Fila 2 -->
+    <TextView
+        android:id="@+id/cuadrado_2_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B1"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_2_2"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_1" />
+
+    <TextView
+        android:id="@+id/cuadrado_2_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B2"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_2"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_2_1"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_2_3"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_2" />
+
+    <TextView
+        android:id="@+id/cuadrado_2_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B3"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_3"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_2_2"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_2_4"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_3" />
+
+    <TextView
+        android:id="@+id/cuadrado_2_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B4"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_4"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_2_3"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_2_5"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_4" />
+
+    <TextView
+        android:id="@+id/cuadrado_2_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B5"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_5"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_2_4"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_2_6"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_5" />
+
+    <TextView
+        android:id="@+id/cuadrado_2_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B6"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_6"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_2_5"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_2_7"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_6" />
+
+    <TextView
+        android:id="@+id/cuadrado_2_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="B7"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_1_7"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_2_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_3_7" />
+
+    <!-- Fila 3 -->
+    <TextView
+        android:id="@+id/cuadrado_3_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C1"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_3_2"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_1" />
+
+    <TextView
+        android:id="@+id/cuadrado_3_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C2"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_2"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_3_1"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_3_3"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_2" />
+
+    <TextView
+        android:id="@+id/cuadrado_3_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C3"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_3"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_3_2"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_3_4"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_3" />
+
+    <TextView
+        android:id="@+id/cuadrado_3_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C4"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_4"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_3_3"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_3_5"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_4" />
+
+    <TextView
+        android:id="@+id/cuadrado_3_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C5"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_5"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_3_4"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_3_6"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_5" />
+
+    <TextView
+        android:id="@+id/cuadrado_3_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C6"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_6"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_3_5"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_3_7"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_6" />
+
+    <TextView
+        android:id="@+id/cuadrado_3_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="C7"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_2_7"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_3_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_4_7" />
+
+    <!-- Fila 4 -->
+    <TextView
+        android:id="@+id/cuadrado_4_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D1"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_4_2"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_1" />
+
+    <TextView
+        android:id="@+id/cuadrado_4_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D2"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_2"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_4_1"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_4_3"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_2" />
+
+    <TextView
+        android:id="@+id/cuadrado_4_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D3"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_3"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_4_2"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_4_4"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_3" />
+
+    <TextView
+        android:id="@+id/cuadrado_4_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D4"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_4"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_4_3"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_4_5"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_4" />
+
+    <TextView
+        android:id="@+id/cuadrado_4_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D5"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_5"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_4_4"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_4_6"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_5" />
+
+    <TextView
+        android:id="@+id/cuadrado_4_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D6"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_6"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_4_5"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_4_7"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_6" />
+
+    <TextView
+        android:id="@+id/cuadrado_4_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="D7"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_3_7"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_4_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_5_7" />
+
+    <!-- Fila 5 -->
+    <TextView
+        android:id="@+id/cuadrado_5_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="E1"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_5_2"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_1" />
+
+    <TextView
+        android:id="@+id/cuadrado_5_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="E2"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_2"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_5_1"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_5_3"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_2" />
+
+    <TextView
+        android:id="@+id/cuadrado_5_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="E3"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_3"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_5_2"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_5_4"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_3" />
+
+    <TextView
+        android:id="@+id/cuadrado_5_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="E4"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_4"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_5_3"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_5_5"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_4" />
+
+    <TextView
+        android:id="@+id/cuadrado_5_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="E5"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_5"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_5_4"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_5_6"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_5" />
+
+    <TextView
+        android:id="@+id/cuadrado_5_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="E6"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_6"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_5_5"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_5_7"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_6" />
+
+    <TextView
+        android:id="@+id/cuadrado_5_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:textSize="24dp"
+        android:text="E7"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_4_7"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_5_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cuadrado_6_7" />
+
+    <!-- Fila 6 -->
+    <TextView
+        android:id="@+id/cuadrado_6_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F1"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_6_2"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cuadrado_6_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F2"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_2"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_6_1"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_6_3"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cuadrado_6_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F3"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_3"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_6_2"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_6_4"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cuadrado_6_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F4"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_4"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_6_3"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_6_5"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cuadrado_6_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F5"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_5"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_6_4"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_6_6"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cuadrado_6_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F6"
+        android:textSize="24dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_6"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_6_5"
+        app:layout_constraintEnd_toStartOf="@+id/cuadrado_6_7"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cuadrado_6_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#3366ff"
+        android:text="F7"
+        android:gravity="center"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/cuadrado_5_7"
+        app:layout_constraintStart_toEndOf="@+id/cuadrado_6_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
